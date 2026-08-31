@@ -1,0 +1,35 @@
+{
+  "name": "Clean Compounder Ltd",
+  "ticker": "CLEAN",
+  "sector": "Auto",
+  "_note": "SYNTHETIC teaching fixture, not a real company. The contrast case: margins and asset turnover improving, leverage falling, profit converting to cash, promoter unpledged.",
+  "is_financial": false,
+  "years": [
+    {
+      "label": "FY24",
+      "revenue": 8800, "cogs": 5500, "sga": 1100, "depreciation": 380,
+      "ebit": 1900, "interest": 100, "other_income": 150,
+      "pbt": 1800, "tax": 460, "pat": 1300,
+      "total_assets": 11500, "current_assets": 4200, "current_liabilities": 2400,
+      "inventory": 1100, "receivables": 1350, "net_block": 4300, "cwip": 250,
+      "total_liabilities": 4400, "long_term_debt": 1400, "short_term_debt": 500,
+      "equity": 7100, "reserves": 5800, "shares_outstanding": 2730, "cfo": 1500,
+      "promoter_holding_pct": 49.0, "promoter_pledge_pct": 0.0,
+      "related_party_txns": 180, "contingent_liabilities": 700,
+      "auditor_qualified": false, "auditor_changed": false
+    },
+    {
+      "label": "FY25",
+      "revenue": 10000, "cogs": 6000, "sga": 1200, "depreciation": 400,
+      "ebit": 2400, "interest": 100, "other_income": 150,
+      "pbt": 2300, "tax": 580, "pat": 1720,
+      "total_assets": 12000, "current_assets": 5000, "current_liabilities": 2500,
+      "inventory": 1200, "receivables": 1500, "net_block": 4500, "cwip": 300,
+      "total_liabilities": 4000, "long_term_debt": 1000, "short_term_debt": 500,
+      "equity": 8000, "reserves": 6500, "shares_outstanding": 2730, "cfo": 1900,
+      "promoter_holding_pct": 49.0, "promoter_pledge_pct": 0.0,
+      "related_party_txns": 200, "contingent_liabilities": 800,
+      "auditor_qualified": false, "auditor_changed": false
+    }
+  ]
+}

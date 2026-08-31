@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bharat-scores"
+version = "0.1.0"
+description = "Forensic accounting scores for Indian listed companies: Piotroski, Beneish, Altman (EM), DuPont, and an India-specific red-flag register."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Yash Sharma" }]
+keywords = [
+    "indian-stock-market", "nse", "bse", "equity-research",
+    "forensic-accounting", "fundamental-analysis", "piotroski",
+    "beneish", "altman-z-score", "dupont", "claude-skills",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial :: Investment",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+bharat-scores = "bharat_scores.cli:main"
+
+[tool.setuptools]
+packages = ["bharat_scores"]
