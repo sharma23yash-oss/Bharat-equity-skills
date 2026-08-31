@@ -1,6 +1,8 @@
 # bharat-equity-skills
 
-**Forensic equity research for Indian listed companies — a Python scoring engine plus seven Claude Skills.**
+[![tests](https://github.com/sharma23yash-oss/Bharat-equity-skills/actions/workflows/ci.yml/badge.svg)](https://github.com/sharma23yash-oss/Bharat-equity-skills/actions/workflows/ci.yml)
+
+**Forensic equity research for Indian listed companies — a Python scoring engine plus eight Claude Skills.**
 
 Piotroski, Beneish and Altman were fitted on US companies. They do not know what a promoter pledge is. This repository adds the checks that actually predict permanent loss of capital in the Indian market, and pairs them with research skills that reason about the output.
 
@@ -45,8 +47,8 @@ python -m bharat_scores examples/data/synthetic-value-trap.json
 ## Quickstart
 
 ```bash
-git clone https://github.com/sharma23yash-oss/bharat-equity-skills.git
-cd bharat-equity-skills
+git clone https://github.com/sharma23yash-oss/Bharat-equity-skills.git
+cd Bharat-equity-skills
 python -m bharat_scores examples/data/synthetic-value-trap.json
 ```
 
@@ -83,7 +85,7 @@ Two design decisions worth knowing about:
 
 ### 2. The skills — `skills/`
 
-Seven [Claude Skills](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) that take the engine's output and produce the judgement it cannot:
+Eight [Claude Skills](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) that take the engine's output and produce the judgement it cannot:
 
 | Skill | Purpose |
 | --- | --- |
